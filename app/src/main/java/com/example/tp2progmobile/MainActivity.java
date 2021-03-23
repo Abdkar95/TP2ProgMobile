@@ -143,6 +143,9 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public void onTextChanged(CharSequence s, int start, int before, int count) {
+            //Exercice 2 - Change automatiquement le bouton radio quand on détecte la présence d’un point décimal dans la saisie de la taille.
+            if(taille.getText().toString().contains(".") && group.getCheckedRadioButtonId() == R.id.radio_centimetre)
+                group.check(R.id.radio_metre);
             result.setText(texteInit);
         }
 
