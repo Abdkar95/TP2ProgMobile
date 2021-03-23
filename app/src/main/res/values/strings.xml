@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TP2ProgMobile</string>
+    <string name="determinepoids">Déterminez votre poids :</string>
+    <string name="determinetaille">Déterminez votre taille :</string>
+    <string name="taille">Taille :</string>
+    <string name="poids">Poids :</string>
+    <string name="metre">Mètre</string>
+    <string name="centimetre">Centimètre</string>
+    <string name="appreciation">Appréciation</string>
+    <string name="calculimc">Calculer l\'IMC</string>
+    <string name="reset">Reset</string>
+    <string name="resultat">Résultat :</string>
+    <string name="cliquezici">Vous devez cliquer sur le bouton « Calculer l\'IMC » pour obtenir un résultat.</string>
+
+</resources>
