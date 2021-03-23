@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TP2ProgMobile</string>
+    <string name="determinepoids">Determine your weight:</string>
+    <string name="taille">Height :</string>
+    <string name="poids">Weight :</string>
+    <string name="metre">Meter</string>
+    <string name="centimetre">Centimeter</string>
+    <string name="appreciation">Opinion</string>
+    <string name="calculimc">Calculate BMI</string>
+    <string name="determinetaille">Determine your height :</string>
+    <string name="reset">Reset</string>
+    <string name="resultat">Result :</string>
+    <string name="cliquezici">You must click the button « Calculate BMI » to get a result.</string>
+
+</resources>
