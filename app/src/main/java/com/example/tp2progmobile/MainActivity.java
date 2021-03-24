@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
         envoyer = (Button)findViewById(R.id.calcul);
         reset = (Button)findViewById(R.id.reset);
         taille = (EditText)findViewById(R.id.taille);
+        taille.addTextChangedListener(textWatcher);
         poids = (EditText)findViewById(R.id.poids);
         commentaire = (CheckBox)findViewById(R.id.commentaire);
         group = (RadioGroup)findViewById(R.id.group);
