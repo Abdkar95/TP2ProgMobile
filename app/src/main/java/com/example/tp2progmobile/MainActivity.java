@@ -61,11 +61,6 @@ public class MainActivity extends AppCompatActivity {
             String p = poids.getText().toString();
             float tValue = Float.valueOf(t);
 
-            if (t.contains("    .")) {
-                //Utiliser setChecked(boolean checked) ou toggle()
-                //test.setChecked(false);
-                //Log.i("", "state chenged, new state = " + test.isChecked());
-            }
 
             // Puis on vérifie que la taille est cohérente
             if(tValue <= 0)
